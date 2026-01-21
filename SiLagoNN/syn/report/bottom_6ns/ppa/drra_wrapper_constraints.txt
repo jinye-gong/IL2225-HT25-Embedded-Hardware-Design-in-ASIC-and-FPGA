@@ -1,0 +1,45 @@
+ 
+****************************************
+Report : constraint
+Design : drra_wrapper
+Version: V-2023.12-SP4
+Date   : Wed Jan 14 19:15:44 2026
+****************************************
+
+
+                                                   Weighted
+    Group (max_delay/setup)      Cost     Weight     Cost
+    -----------------------------------------------------
+    clk                        209.41      1.00    209.41
+    default                      0.00      1.00      0.00
+    -----------------------------------------------------
+    max_delay/setup                                209.41
+
+                              Total Neg  Critical
+    Group (critical_range)      Slack    Endpoints   Cost
+    -----------------------------------------------------
+    clk                      127062.62        1    209.41
+    default                      0.00         0      0.00
+    -----------------------------------------------------
+    critical_range                                 209.41
+
+                                                   Weighted
+    Group (min_delay/hold)       Cost     Weight     Cost
+    -----------------------------------------------------
+    clk (no fix_hold)            0.00      1.00      0.00
+    default                      0.00      1.00      0.00
+    -----------------------------------------------------
+    min_delay/hold                                   0.00
+
+
+    Constraint                                       Cost
+    -----------------------------------------------------
+    min_capacitance                                  0.00 (MET)
+    max_transition                                   0.00 (MET)
+    max_capacitance                                  0.00 (MET)
+    max_delay/setup                                209.41 (VIOLATED)
+    sequential_clock_pulse_width                     0.00 (MET)
+    critical_range                                 209.41 (VIOLATED)
+
+
+1

@@ -1,0 +1,29 @@
+Information: Checking out the license 'DesignWare'. (SEC-104)
+  Allocating blocks in 'DW_div_pipe_a_width32_b_width32_tc_mode1_rem_mode1_num_stages4_stall_mode0_rst_mode1_op_iso_mode4'
+  Allocating blocks in 'DW_div_a_width32_b_width32_tc_mode1_rem_mode1'
+  Allocating blocks in 'DW01_absval_width32'
+  Allocating blocks in 'DW_div_a_width32_b_width32_tc_mode1_rem_mode1'
+  Allocating blocks in 'DW01_absval_width32'
+Warning: Design 'DW_div_pipe_a_width32_b_width32_tc_mode1_rem_mode1_num_stages4_stall_mode0_rst_mode1_op_iso_mode4' inherited license information from design 'DW_div_a_width32_b_width32_tc_mode1_rem_mode1.model.cla'. (DDB-74)
+Information: Updating graph... (UID-83)
+Warning: Design 'drra_wrapper' contains 141 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : clocks
+Design : drra_wrapper
+Version: V-2023.12-SP4
+Date   : Mon Jan 12 18:28:52 2026
+****************************************
+
+Attributes:
+    d - dont_touch_network
+    f - fix_hold
+    p - propagated_clock
+    G - generated_clock
+    g - lib_generated_clock
+
+Clock          Period   Waveform            Attrs     Sources
+--------------------------------------------------------------------------------
+clk             20.00   {0 10}                        {clk}
+--------------------------------------------------------------------------------
+1

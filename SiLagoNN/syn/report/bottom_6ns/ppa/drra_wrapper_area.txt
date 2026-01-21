@@ -1,0 +1,32 @@
+ 
+****************************************
+Report : area
+Design : drra_wrapper
+Version: V-2023.12-SP4
+Date   : Wed Jan 14 19:11:31 2026
+****************************************
+
+Information: Updating design information... (UID-85)
+Warning: Design 'drra_wrapper' contains 6 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Library(s) Used:
+
+    GF22FDX_SC8T_104CPP_BASE_CSC28L_TT_0P80V_0P00V_0P45V_M0P45V_25C (File: /opt/pdk/gfip/22FDX-EXT/GF22FDX_SC8T_104CPP_BASE_CSC28L_FDK_RELV06R60/model/timing/ccs_db/GF22FDX_SC8T_104CPP_BASE_CSC28L_TT_0P80V_0P00V_0P45V_M0P45V_25C_ccs.db)
+
+Number of ports:                       315069
+Number of nets:                       1007105
+Number of cells:                       696842
+Number of combinational cells:         614283
+Number of sequential cells:             79407
+Number of macros/black boxes:               0
+Number of buf/inv:                     182592
+Number of references:                      17
+
+Combinational area:             247357.592024
+Buf/Inv area:                    33176.099831
+Noncombinational area:          138653.864506
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                386011.456530
+Total area:                 undefined
+1

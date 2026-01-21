@@ -1,0 +1,86 @@
+Information: Updating design information... (UID-85)
+Warning: Design 'drra_wrapper' contains 6 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : qor
+Design : drra_wrapper
+Version: V-2023.12-SP4
+Date   : Tue Jan 13 00:51:38 2026
+****************************************
+
+
+  Timing Path Group 'clk'
+  -----------------------------------
+  Levels of Logic:             122.00
+  Critical Path Length:       2751.63
+  Critical Path Slack:       -2750.45
+  Critical Path Clk Period:     20.00
+  Total Negative Slack:  -65393532.00
+  No. of Violating Paths:    77384.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:       4640
+  Hierarchical Port Count:     440580
+  Leaf Cell Count:             939435
+  Buf/Inv Cell Count:          183688
+  Buf Cell Count:               23405
+  Inv Cell Count:              160283
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:    859964
+  Sequential Cell Count:        79471
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:   322775.328674
+  Noncombinational Area:
+                        135582.387631
+  Buf/Inv Area:          30929.500210
+  Total Buffer Area:          5209.19
+  Total Inverter Area:       25720.31
+  Macro/Black Box Area:      0.000000
+  Net Area:                  0.000000
+  -----------------------------------
+  Cell Area:            458357.716306
+  Design Area:          458357.716306
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:        950867
+  Nets With Violations:             0
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: il2225ht25_jinyeg
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                10645.05
+  Logic Optimization:               3834.78
+  Mapping Optimization:             7610.83
+  -----------------------------------------
+  Overall Compile Time:            22479.00
+  Overall Compile Wall Clock Time: 22803.38
+
+  --------------------------------------------------------------------
+
+  Design  WNS: 2750.45  TNS: 65393532.00  Number of Violating Paths: 77384
+
+
+  Design (Hold)  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
+
+  --------------------------------------------------------------------
+
+
+1
